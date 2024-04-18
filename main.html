@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <div class="mainscreen">
+        <div class="stats">
+            <h2> Статистика </h2>
+            <p>Вес: <span class="weight">63</span> кг</p>
+            <p>Рост: 180 см</p>
+            <p>Возраст: 15</p>
+            <p>Имя: Алексей</p>
+            <a class="editbutton"> Редактировать</a>
+        </div>
+        <div class="result">
+            <h2> Результаты за неделю </h2>
+            <p class="p-result1"> <span>50</span> кг </p>
+            <p class="p-result2"> Текущий вес</p2>
+        </div>
+    </div>
+    <div class="editscreen"> 
+        <div class="stats">
+            <p> Возраст </p>
+            <input type="number" name="age" min="3" max="100" placeholder="52">
+            <p> Рост </p>
+            <input type="number" name="height" min="3" max="299" placeholder="180">
+            <p> Вес </p>
+            <input type="number" name="weight" min="3" max="5000" placeholder="64">
+            <p> Имя </p>
+            <input type="text" maxlength="20" name="name" placeholder="Лёша">
+            <button> Сохранить данные </button>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+.button_index {
+    color: white;
+    background-color: #52B1BE;
+    border-radius: 10px;
+    width: 320px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button {
+    margin: 5px;
+}
+
+.result_index {
+    color: white;
+    background-color: #52B1BE;
+    border-radius: 10px;
+    width: 320px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.progres {
+    margin-left: 5px;
+    margin-top: 140px;
+}
+
+a {
+    text-decoration: none;
+}
